@@ -19,14 +19,18 @@ a{
   text-decoration: none;
 }
 
-.list {
+li{
+  list-style-type: none;
+}
+
+.list  {
   list-style: none;
 }
 .web{
   text-decoration: none;
 
   font-family: Raleway;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -38,7 +42,7 @@ a{
   text-decoration: none;
 
   font-family: Raleway;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -81,7 +85,7 @@ letter-spacing: 0.02em;
   list-style: none;
 }
 
-.contacts{
+.contacts-header{
   font-family: Roboto;
 font-style: 400;
 font-weight: 500;
@@ -91,8 +95,8 @@ letter-spacing: 0.02em;
 
 color: var(--title-text-color);
 }
-.contacts:hover,
-.contacts:focus{
+.contacts-header:hover,
+.contacts-header:focus{
   color: var(--accent-text-color);
 }
 
@@ -100,12 +104,13 @@ color: var(--title-text-color);
   color: var(--main-background-color);
 
 
-font-family: Roboto;
-font-style: 400;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .hero .button{
@@ -119,31 +124,35 @@ color: var(--main-background-color);
 background-color: var(--accent-text-color);
 }
 
+.benefits{
+  list-style-type: none;
+}
 
 .section-title {
   color: var(--primary-text-color);
 
-font-style: 400;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .section-title .paragraph {
   color: var(--title-text-color);
 
   font-family: Roboto;
-font-style: 400;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .imeges {
-color: var(--primary-text-color);
+  color: var(--primary-text-color);
 
-font-style: 400;
+font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -154,38 +163,42 @@ letter-spacing: 0.03em;
 .team{
   color: var(--primary-text-color);
 
-  font-style: 400;
-  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em; 
+  letter-spacing: 0.03em;
 }
 
 .member{
 color: var(--primary-text-color);
 
-font-style: 400;
+font-family: Roboto;
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em
+line-height: 1.9;
+letter-spacing: 0.03em;
 }
 
 .profession-member{
 color: var(--title-text-color);
 
 
-font-style: 400;
-font-weight: 400;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
 font-size: 16px;
 line-height: 1.9;
+letter-spacing: 0.03em;
 }
 
 .web{
   
   font-family: Raleway;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -196,7 +209,7 @@ line-height: 1.9;
 
 .studio {
   font-family: Raleway;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -206,25 +219,31 @@ line-height: 1.9;
 }
 .my-address{
   font-family: Roboto;
-font-style: 400;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+    letter-spacing: 0.03em;
 
 color: var(--main-background-color);
 }
 
 .contacts{
   font-family: Roboto;
-font-style: 400;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-
-color: var(--title-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  
+  color: rgba(255, 255, 255, 0.6);
 }
+
+.contacts:focus,
+.contacts:hover{
+  color: var(--accent-text-color);
+}
+
 
 
 /* портфолио */
@@ -238,7 +257,7 @@ cursor: pointer;
 
 .button-portfolio{
   font-family: Roboto;
-  font-style: 400;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -248,8 +267,8 @@ cursor: pointer;
 
 .img{
   font-family: Roboto;
-font-style: 400;
-font-weight: 900;
+font-style: normal;
+font-weight: bold;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
@@ -257,11 +276,11 @@ letter-spacing: 0.06em;
 
 .img-title{
   font-family: Roboto;
-font-style: 400;
-font-weight: 400;
-font-size: 16px;
-line-height: 2.25;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 color: var(--title-text-color);
 }
 
@@ -269,7 +288,7 @@ color: var(--title-text-color);
   text-decoration: none;
 
   font-family: Raleway;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -281,7 +300,7 @@ color: var(--title-text-color);
   text-decoration: none;
 
   font-family: Raleway;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
