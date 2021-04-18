@@ -31,11 +31,12 @@ li{
 
   font-family: Raleway;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 31px; 
   letter-spacing: 0.03em;
   color: var(--accent-text-color) 
+
 }
 
 .studio{
@@ -43,7 +44,7 @@ li{
 
   font-family: Raleway;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -56,7 +57,7 @@ li{
   cursor: pointer;
 
 font-family: Roboto;
-font-style: 400;
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -86,14 +87,15 @@ letter-spacing: 0.02em;
 }
 
 .contacts-header{
-  font-family: Roboto;
-font-style: 400;
+font-family: Roboto;
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: var(--title-text-color);
+
 }
 .contacts-header:hover,
 .contacts-header:focus{
@@ -104,13 +106,24 @@ color: var(--title-text-color);
   color: var(--main-background-color);
 
 
-  font-family: Roboto;
+  /* font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
+
 }
 
 .hero .button{
@@ -131,33 +144,60 @@ background-color: var(--accent-text-color);
 .section-title {
   color: var(--primary-text-color);
 
+  /* font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em; */
+
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+
 }
 
 .section-title .paragraph {
   color: var(--title-text-color);
 
-  font-family: Roboto;
+  /* font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.17;
+
   letter-spacing: 0.03em;
+
 }
 .imeges {
   color: var(--primary-text-color);
 
-font-style: normal;
+/* font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
-letter-spacing: 0.03em; 
+letter-spacing: 0.03em;  */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
 }
 
 .team{
@@ -170,6 +210,7 @@ letter-spacing: 0.03em;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+
 }
 
 .member{
@@ -195,26 +236,26 @@ line-height: 1.9;
 letter-spacing: 0.03em;
 }
 
-.web{
+/* .web{
   
   font-family: Raleway;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-text-color) 
   text-decoration: none;
-}
+} */
 
-.studio {
+/* .studio {
   font-family: Raleway;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color)
+  color: var(--primary-text-color) */
   
 }
 .my-address{
@@ -226,6 +267,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
 
 color: var(--main-background-color);
+
 }
 
 .contacts{
@@ -248,6 +290,7 @@ color: var(--main-background-color);
 
 /* портфолио */
 
+
  .button-portfolio:focus,
  .button-portfolio:hover{
 color: var(--main-background-color);
@@ -263,6 +306,7 @@ cursor: pointer;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  
 }
 
 .img{
@@ -272,6 +316,7 @@ font-weight: bold;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
+
 }
 
 .img-title{
@@ -284,7 +329,7 @@ letter-spacing: 0.06em;
 color: var(--title-text-color);
 }
 
-.web{
+/* .web{
   text-decoration: none;
 
   font-family: Raleway;
@@ -294,9 +339,9 @@ color: var(--title-text-color);
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-text-color) 
-}
+} */
 
-.studio{
+/* .studio{
   text-decoration: none;
 
   font-family: Raleway;
@@ -306,4 +351,4 @@ color: var(--title-text-color);
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color) 
-}
+} */
