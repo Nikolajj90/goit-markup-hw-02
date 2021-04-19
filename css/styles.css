@@ -23,6 +23,10 @@ li{
   list-style-type: none;
 }
 
+address{
+  font-style: normal;
+}
+
 .list  {
   list-style: none;
 }
@@ -260,15 +264,16 @@ letter-spacing: 0.03em;
 }
 .my-address{
   font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-    letter-spacing: 0.03em;
-
-color: var(--main-background-color);
-
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: var(--main-background-color);
 }
+
+
+
 
 .contacts{
   font-family: Roboto;
